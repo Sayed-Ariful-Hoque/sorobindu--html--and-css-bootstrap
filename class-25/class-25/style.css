@@ -1,0 +1,25 @@
+.header img{
+    width: 160px;
+    height: auto;
+    margin-top: 4px;
+}
+.header{
+    background: cornflowerblue;
+}
+.header ul{
+    
+}
+.header ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header ul li a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding: 17px 10px;
+}
+.header ul li a:hover{
+    background: coral;
+}

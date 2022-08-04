@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: blue;
+}
+h2{
+    text-align:left;
+    color: chartreuse;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    color: lime;
+    font-size: 40px;
+}
+p::after{
+    content:'"';
+}
+p::before{
+    content: '"';
+}
+.frist-div{
+    text-align: center;
+    margin-top: 50px;
+}
+.clik{
+font-size: 60px;
+text-decoration: none;
+background-color:tomato ;
+padding: 10px 20px;
+border-radius: 10px;
+display: inline-block;
+position: relative;
+z-index: 1;
+}
+.clik::before{
+content: "";
+height: 0;
+width: 100%;
+position: absolute;
+left: 0;
+bottom: 0;
+background-color: rgb(0, 255, 64);
+border-radius: 10px;
+transition: .4s;
+z-index: -1;
+}
+.clik:hover::before{
+    height: 100%;
+}

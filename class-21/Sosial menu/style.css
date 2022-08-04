@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.social-menu{
+    
+    
+
+}
+.social-menu ul{
+    text-align: center;
+}
+.social-menu ul li{ 
+    display: inline-block;
+    margin-top: 50px;
+    
+    
+}
+.social-menu ul li a{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 50%;
+    font-size: 60px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 10px;
+    margin-right: 25px;
+    
+}
+.social-menu ul li a:hover{
+    color: navy;
+}

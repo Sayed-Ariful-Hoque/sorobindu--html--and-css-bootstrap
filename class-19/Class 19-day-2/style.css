@@ -1,0 +1,20 @@
+.another{
+    text-align: center;
+    padding: 500px;
+   background-image: url(IMG_0258.JPG);
+   background-position: top center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+
+   uoporer eta na lekhe sotcut e nicher eta lekh le o hove 
+   background: url(IMG_0258.JPG) top center no-repeat fixed;
+   background-size: contain;
+   padding: 500px;
+
+
+
+}
+h2{
+    text-align: center;
+}

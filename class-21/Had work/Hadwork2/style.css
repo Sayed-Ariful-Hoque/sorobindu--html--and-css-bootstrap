@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mane-div{
+    background-color: aqua;
+
+}
+.mane-div ul{
+    text-align: center;
+
+}
+.mane-div ul li{
+    display: inline-block;
+    margin-left: -4px;
+
+}
+.mane-div ul li a{
+    color: black;
+    padding: 10px 15px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-right: 1px solid blue;
+}
+.mane-div ul li:first-child a{
+    border-left: 1px solid blue;
+}
+.mane-div ul li:hover > a{
+    background-color: aquamarine;
+
+}
+/* DorpDonw mnue start */
+.mane-div ul li{
+position: relative;
+}
+.mane-div ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 300px;
+    background-color: aqua;
+    border-top: 1px solid blue;
+    transition: .8s;
+}
+.mane-div ul li ul li{
+    display: block;
+    margin-left: 0;
+}
+.mane-div ul li ul li a{
+    display: block;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+.mane-div ul ul li:first-child a{
+    border-left:none;}
+
+    /*Hover prt */
+    .mane-div ul li ul{
+        opacity: 0;
+        visibility: hidden;
+        transform: scalex(0); 
+        transform-origin: bottom center;
+    }
+    .mane-div ul li:hover ul{
+        opacity: 1;
+        visibility: visible;
+        transform: scalex(1);
+    
+        
+    }
+.mane-div ul li ul:hover a{
+
+}

@@ -1,0 +1,16 @@
+h3{
+    color:red ;
+    font-size: 100px;
+    background-color: darkblue;
+    font-family: Arial, Helvetica, sans-serif  ;
+}
+h2{
+    text-shadow: 20px 30px red;
+    font: size 10px;
+    font-style: italic;
+    font-weight:100px;
+}
+p{
+    line-height: 70px;
+    font-size: 50px;
+}

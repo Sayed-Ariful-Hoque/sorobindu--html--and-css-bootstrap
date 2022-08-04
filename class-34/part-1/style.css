@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.this-my-frend{
+    background-color: cornflowerblue;
+    color: azure;
+    padding: 20px;
+    font-size: 40px;
+}
+@media (max-width:1200px) {
+    .this-my-frend{
+        background-color: darkgreen;
+        color: blue;
+        font-size: 30px;
+    }
+}
+@media (max-width:768px) {
+    .this-my-frend{
+        background-color: wheat;
+        color: darkgoldenrod;
+        font-size: 20px;
+    }
+}
+@media (max-width:260px) {
+    .this-my-frend{
+        background-color: mediumorchid;
+        color: orange;
+        font-size: 10px;
+    }
+}
+    

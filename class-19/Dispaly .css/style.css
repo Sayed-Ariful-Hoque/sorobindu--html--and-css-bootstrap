@@ -1,0 +1,71 @@
+h1{
+    background: blue;
+}
+p{
+    background: blue;
+}
+a{
+    background: ;
+}
+span{
+    background: blue;
+}
+
+b{
+    background: blue;
+}
+u{
+    background: blue;
+}
+d{
+    background: blue;
+}
+mark{
+    background: blue;
+}
+small{
+    background: blue;
+}
+sup{
+    background: blue;
+}
+sub{
+    background: blue;
+}
+strong{
+    background: blue;
+}
+code{
+    background: blue;
+}
+
+ol{
+    background: blue;
+}
+.class-a{
+    background: blue;
+}
+#id-b{
+    background: blue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-menu li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.main-menu li a{
+    padding: 40px;
+    background-color: green;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid blue;
+}
+.main-menu{
+    text-align: center;
+}
+.main-menu li a:hover{
+    background: greenyellow;
+}

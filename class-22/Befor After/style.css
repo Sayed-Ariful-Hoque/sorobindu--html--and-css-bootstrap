@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+h1::after{
+    content: "-pore";
+}
+h1::before{
+    content: '-age';
+}
+h2{
+    font-size: 50px;
+}
+p::after{
+    content: '"';
+
+}
+p::before{
+    content: '"';
+}
+p{
+    text-align: center;
+    font-size: 40px;
+}
+.button-div{
+    text-align: center;
+    margin-top: 50px;
+}
+.button{
+    font-size: 50px;
+    text-decoration: none;
+    background-color: blueviolet;
+    display: inline-block;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.button::before{
+    content: "";
+    height:100%;
+    width:0;
+    right : 0;
+    bottom: 0;
+    position: absolute;
+    background-color: blue;
+    border-radius: 10px;
+    transition: .5s;
+    z-index: -1;
+
+
+}
+.button:hover::before{
+    width: 100%;
+}

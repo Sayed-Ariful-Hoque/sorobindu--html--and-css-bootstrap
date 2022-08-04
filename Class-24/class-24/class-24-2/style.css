@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    list-style: none;
+
+}
+ul li{
+    float: left;
+    
+
+}
+ul li a{
+
+    padding:10px 30px;
+    display: inline-block;
+    background: tomato;
+    text-decoration: none;
+    border: 1px solid green;
+    transition: .4s;
+    
+
+}
+ul li a:hover{
+
+    background-color: green;
+}

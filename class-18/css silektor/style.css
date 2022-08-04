@@ -1,0 +1,39 @@
+h2{
+    color:red ;
+}
+.first-div{
+    height: 200px;
+    width: 200px;
+    background: blue;
+}
+.first-div:hover{
+    background: green;
+    cursor: pointer;
+    transition:  .10s;
+}
+#anather-id{
+
+}
+.footer-menu
+li a{
+    color: red;
+    text-decoration:none ;
+}
+div p{
+    color: blue;
+
+}
+.footer-menu li:first-child a{
+    color: green;
+}
+.footer-menu li:last-child a{
+    color: #000;
+}
+.footer-menu li:nth-child(2) a{
+    color: brown;
+
+}
+.footer-menu li:nth-child(4) a{
+    color: salmon;
+}
+

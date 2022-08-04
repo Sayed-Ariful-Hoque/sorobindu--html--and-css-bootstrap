@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Tabil{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    float: right;
+}
+img{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 50px;
+    
+}
+p{
+    font-size: 25px;
+ 
+}

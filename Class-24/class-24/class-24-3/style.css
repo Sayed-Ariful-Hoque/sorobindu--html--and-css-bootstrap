@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.rom{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    border: 1px solid red;
+
+}
+.sofa{
+    width: 30%;
+    height: 100px;
+    background-color: chartreuse;
+    float: left;
+}
+.cheyar{
+    width: 70%;
+    height: 100px;
+    background-color: chocolate;
+    float: right;
+}
